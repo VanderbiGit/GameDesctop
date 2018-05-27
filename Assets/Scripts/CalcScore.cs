@@ -10,7 +10,7 @@ public class CalcScore : MonoBehaviour {
     private Text[] scours;
 
     private Dictionary<string, int> tempD;  
-    //забиваєм таблицю дефолтними значеннями
+    //забиваєм таблицю дефолтними значеннями ok
     private void Start()
     {
         for (int i = 0; i < scours.Length; i++)

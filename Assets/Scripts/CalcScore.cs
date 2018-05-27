@@ -9,7 +9,7 @@ public class CalcScore : MonoBehaviour {
     [SerializeField]
     private Text[] scours;
 
-    private Dictionary<string, int> tempD; 
+    private Dictionary<string, int> tempD;  
     //забиваєм таблицю дефолтними значеннями
     private void Start()
     {
